@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 116);
+}
+.Nav-Bar {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  font-size: larger;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(116, 114, 114);
+  cursor: pointer;
+}
+a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  border-top: 2px solid black;
+  font-size: 1.5rem;
+}
+p {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.anchors {
+  width: 38%;
+  height: 50px;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 11rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Main-text {
+  width: 35rem;
+  height: 30vh;
+  background-color: aquamarine;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  left: 20vh;
+  top: 15vh;
+}
+.image1 {
+  width: 44vh;
+  height: 10vh;
+  border-radius: 80px;
+  position: relative;
+  left: 65vw;
+  top: 20vh;
+}
+.second-para {
+  position: absolute;
+  left: 0.5vw;
+  top: -25vh;
+  width: 100%;
+  font-size: xx-large;
+  font-weight: 500;
+}
+.Quotes {
+  background-color: rgba(126, 126, 66, 0);
+  width: 30%;
+  height: 40vh;
+  position: relative;
+  left: 65vw;
+  top: 25vh;
+  backdrop-filter: blur(25%);
+}
+
+.Content {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.illustration {
+  width: 65%;
+  height: 45rem;
+  position: relative;
+  top: 4.5vh;
+  border-top-right-radius: 10rem;
+  border-top-left-radius: 10rem;
+}
+.bottom {
+  width: 100%;
+  height: 7rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BUTTON {
+  border: 2px solid rgb(116, 114, 114);
+  border-radius: 20px;
+  padding: 5px;
+}
+.BUTTON:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.c-button {
+  width: 50vh;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  position: relative;
+  top: 22rem;
+  left: 22vh;
+}
+.Differ {
+  color: yellow;
+  font-size: 5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 255, 116);
+}
+@media (max-width: 1096px) {
+  .Nav-Bar {
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .anchors {
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+    font-size: 18px;
+    margin-top: 0.5rem;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .Main-text {
+    display: none;
+  }
+
+  .image1 {
+    width: 50%;
+    height: auto;
+    left: 26.6%;
+    top: 5vh;
+    position: relative;
+  }
+
+  .Quotes {
+    width: 90%;
+    left: 5%;
+    top: 2rem;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .second-para {
+    position: static;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .c-button {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    top: 3rem;
+    left: 0;
+    padding: 1rem;
+  }
+
+  .BUTTON {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .Content {
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .illustration {
+    width: 80%;
+    height: auto;
+    top: 1rem;
+  }
+
+  .bottom {
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .Differ {
+    font-size: 2rem;
+    color: #fff127; /* darker yellow */
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.8);
+  }
+}
